@@ -80,8 +80,9 @@ kruskal.test(score ~ llm, data = align_new_de_long_fil)
 kruskal.test(score ~ llm, data = align_new_en_long_fil)
 
 
-
-
+#####################################################
+#### kruskal.test with four models (exploratory) ####
+#####################################################
 
 kruskal.test(score ~ llm, data = align_orig_de_long)
 
