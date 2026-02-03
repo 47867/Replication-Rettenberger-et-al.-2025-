@@ -11,7 +11,7 @@ library(tidyr)
 #read in data
 data <- read.csv2("Party_Alignment.csv")
 
-#slice data for each prompt
+#slice data for each prompt variation
 align_orig_en <- data %>% 
   slice(1:4)
 
@@ -23,6 +23,7 @@ align_new_en <- data %>%
 
 align_new_de <- data %>% 
   slice(13:16)
+
 
 #bring to long format
 align_orig_de_long <- align_orig_de %>%

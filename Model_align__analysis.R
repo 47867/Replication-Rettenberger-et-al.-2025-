@@ -13,7 +13,7 @@ library(tidyr)
 #read in data
 data <- read.csv2("Daten_LLMs_Versand_final.csv")
 
-#slice data for each prompt
+#slice data for each prompt variation
 answers_orig_de <- data %>% 
   slice(1:4)
 
